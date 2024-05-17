@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 17 10:45:54 GMT 2024","Fri May 17 10:46:29 GMT 2024","34334","","Test Cases","","","","Should add items to the basket",""
+"passed","Fri May 17 10:46:35 GMT 2024","Fri May 17 10:46:36 GMT 2024","838","","Test Cases","","","","""before each"" hook for Test Cases",""
+"passed","Fri May 17 10:45:43 GMT 2024","Fri May 17 10:45:54 GMT 2024","11269","","Test Cases","","","","Should verify if the price filter working correctly",""
+"passed","Fri May 17 10:46:29 GMT 2024","Fri May 17 10:46:35 GMT 2024","6394","","Test Cases","","","","Should search the item",""
+"failed","Fri May 17 10:46:35 GMT 2024","Fri May 17 10:46:44 GMT 2024","8678","","Test Cases","","","","Should failed the test",""
