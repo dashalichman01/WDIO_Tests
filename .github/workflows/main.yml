@@ -18,7 +18,7 @@ jobs:
 
       - name: Install Test
         run: npm install
-        
+
       - name: Install dependencies
         run: npm ci
 
@@ -44,3 +44,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
+          
