@@ -1,0 +1,22 @@
+{
+  "name": "wdiotests",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.36.1",
+    "@wdio/cli": "^8.36.1",
+    "@wdio/local-runner": "^8.36.1",
+    "@wdio/mocha-framework": "^8.36.1",
+    "@wdio/spec-reporter": "^8.36.1",
+    "allure-commandline": "^2.29.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts",
+    "allure:report": "npx allure generate allure-results --clean",
+    "allure:open": "npx allure open allure-report"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
