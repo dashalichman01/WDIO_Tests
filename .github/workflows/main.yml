@@ -11,6 +11,9 @@ jobs:
       BASE_URL: ${{ secrets.BASE_URL }}
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        
       - name: Setup node
         uses: actions/setup-node@v3
         with:
