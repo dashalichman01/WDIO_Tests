@@ -30,9 +30,8 @@ describe('Test Cases', () => {
     })
 
     it('Should add items to the basket', async()=>{
-
         const itemsInfo = [];
-        
+
         await mainPage.clickPerfumeryBtn();
         await mainPage.clickFirstItem();
         
@@ -70,4 +69,3 @@ describe('Test Cases', () => {
         await expect(itemNameWithSpace).toEqual(await mainPage.getItemName());
     })
 })
-
